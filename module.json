@@ -1,0 +1,36 @@
+{
+    "id": "proficiency-bonus-override",
+    "title": "Proficiency Bonus Override",
+    "description": "",
+    "authors": [
+        {
+            "name": "enso",
+            "discord": "enso#0361"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "3.0.0",
+                    "verified": "3.0.0"
+                }
+            }
+        ]
+    },
+    "esmodules": [
+        "./scripts/proficiency-bonus-override.js"
+    ],
+    "languages": [
+    ],
+    "url": "",
+    "manifest": "",
+    "download": ""
+}
